@@ -15,7 +15,7 @@ If you are a french speaker, I invite you to check the code for more details.
 
 Compile the program with ```make``` if you have [SFML](https://www.sfml-dev.org/)-2.5.1 or upper installed.
 
-Compile the program with ```make nolib``` if you doesn't have [SFML](https://www.sfml-dev.org/)-2.5.1 or lower installed. It will create a Shell script named ```flappyNoLib.sh```.
+Compile the program with ```make nolib``` if you doesn't have [SFML](https://www.sfml-dev.org/)-2.5.1 or lower version installed. It will create a Shell script named ```flappyNoLib.sh```.
 
 ### Utilisation
 
