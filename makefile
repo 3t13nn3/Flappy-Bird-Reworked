@@ -29,7 +29,7 @@ nolib: $(OBJS)
 	@echo "then" >> flappyNoLib.sh
 	@echo "	./$(DOLLAR)EXE" >> flappyNoLib.sh
 	@echo "else" >> flappyNoLib.sh
-	@echo 	"export LD_LIBRARY_PATH=$(DOLLAR)LIBDIR && ./$(DOLLAR)EXE $1" >> flappyNoLib.sh
+	@echo 	"export LD_LIBRARY_PATH=$(DOLLAR)LIBDIR && ./$(DOLLAR)EXE $(DOLLAR)1" >> flappyNoLib.sh
 	@echo "fi" >> flappyNoLib.sh
 	chmod +x flappyNoLib.sh
 
