@@ -3,9 +3,6 @@ A little version of Flappy Bird in C++ (with [SFML](https://www.sfml-dev.org/) l
 
 It could be played by three person at the same time, and got a score system by name.
 
-
-This project aims to isolate forms on an image step by step. We can select the step we want.
-
 If you are a french speaker, I invite you to check the code for more details.
 
 ## Prerequisites
