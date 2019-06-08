@@ -33,7 +33,7 @@ class TopScore{
 
 				if(joueurs.size() > 1){
 					if(name == joueurs[1].getNom()){
-						J2_.setFillColor(sf::Color::Green);
+						J2_.setFillColor(sf::Color::Red);
 					}
 					tmp = joueurs[1].getNom();
 					tmp.append(space);
@@ -53,7 +53,7 @@ class TopScore{
 				
 				if(joueurs.size() > 2){
 					if(name == joueurs[2].getNom()){
-						J3_.setFillColor(sf::Color::Green);
+						J3_.setFillColor(sf::Color::Red);
 					}
 					tmp = joueurs[2].getNom();
 					tmp.append(space);

@@ -79,7 +79,7 @@ vector<Player> score(string nom, Player joueurActuel){
 		/*On efface le fichier*/
 		fstream fichier(nom, ios::in | ios::out);
 		for(auto a : joueurs){
-			//fichier << a.getNom() << ' ' << a.getScore() << '\n';
+			fichier << a.getNom() << ' ' << a.getScore() << '\n';
 			//cout << a.getNom() << ' ' << a.getScore() << '\n';
 		}
 		
