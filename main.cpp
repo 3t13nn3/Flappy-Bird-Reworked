@@ -218,7 +218,7 @@ int main (int argc, char* argv[]){
 	    }
 
         else{        	
-    		if ((Keyboard::isKeyPressed(Keyboard::Space) || Keyboard::isKeyPressed(Keyboard::Up) || Keyboard::isKeyPressed(Keyboard::LShift)) && soundL.getStatus() == 0){
+    		if (Keyboard::isKeyPressed(Keyboard::Space) && soundL.getStatus() == 0){
     			    sound.setPitch(0);
     				joueurs.clear();
     				TS = TopScore();
