@@ -44,7 +44,7 @@ class TopScore{
 					J2_.setPosition(x2_,hauteur/3);
 				}
 				else{
-					tmp = "Futur joueur";
+					tmp = "Futur Player";
 					J2_.setString(tmp);
 					J2_.setOrigin({ J2_.getLocalBounds().width/2, J2_.getLocalBounds().height/2 });
 					x2_= (largeur / 2);
@@ -64,7 +64,7 @@ class TopScore{
 					J3_.setPosition(x3_,hauteur/2.45);
 				}
 				else{
-					tmp = "Futur joueur";
+					tmp = "Futur Player";
 					J3_.setString(tmp);
 					J3_.setOrigin({ J3_.getLocalBounds().width/2, J3_.getLocalBounds().height/2 });
 					x3_= (largeur / 2);
