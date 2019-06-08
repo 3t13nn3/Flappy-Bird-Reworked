@@ -1,7 +1,7 @@
 # Flappy-Bird-Reworked
 A little version of Flappy Bird in C++ (with [SFML](https://www.sfml-dev.org/) library) I made on holidays to continue coding outside the university.
 
-It could be played by three person at the same time, and got a score system by name.
+It could be played by three persons at the same time, and got a score system by name.
 
 If you are a french speaker, I invite you to check the code for more details.
 
